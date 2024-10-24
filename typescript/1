@@ -1,0 +1,15 @@
+import {
+  clusterApiUrl,
+  Connection,
+  Keypair,
+  SystemProgram,
+  Transaction,
+} from "@solana/web3.js";
+import bs58 from "bs58";
+
+(async () => {
+  const CONNECTION = new Connection(cluster("devnet"));
+
+  const PRIVATE_KEY = 
+    ""
+}
